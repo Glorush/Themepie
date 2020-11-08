@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'roboto_thin';
+    src: url('fonts/roboto_thin.eot');
+    src: url('fonts/roboto_thin.eot') format('embedded-opentype'),
+         url('fonts/roboto_thin.woff2') format('woff2'),
+         url('fonts/roboto_thin.woff') format('woff'),
+         url('fonts/roboto_thin.ttf') format('truetype'),
+         url('fonts/roboto_thin.svg#roboto_thin') format('svg');
+}

@@ -1,0 +1,238 @@
+@media screen and (min-width: 1400px){
+	.advantage-some-text {
+	    max-width: 620px;
+	}.team-image-overlay img {
+		-webkit-transform: translateY(20px);
+		        transform: translateY(20px);
+	}
+}
+
+@media screen and (max-width: 1399px) and (min-width: 1200px){
+	.advantage-some-text {
+	    max-width: 530px;
+	}
+}
+@media screen and (max-width: 1199px) and (min-width: 992px){
+	.advantages-area{
+		height: 75rem;
+	}
+	.advantage-some-text {
+	    max-width: 440px;
+	}
+	.advantages-content{
+		height:100%;
+	}
+	.advantages-image{
+		height:100%;
+	}
+	.advantages-img {
+	    width: 100%;
+	    height: 100%;
+	}
+	.advantages-img img {
+	    width: 100%;
+	    height: 100%;
+	    -o-object-fit: cover;
+	       object-fit: cover;
+	}
+	.team-image-overlay img {
+		-webkit-transform: translateY(15px);
+		        transform: translateY(15px);
+	}
+	.customer-img {	
+		height: 14rem;
+	}
+}
+@media screen and (min-width: 992px){
+
+	nav.menu ul{
+		display: -webkit-box !important;
+		display: -ms-flexbox !important;
+		display: flex !important;
+	}
+	.logo .md-screen-n{
+		display: none;
+	}
+}
+@media screen and (max-width: 991px){
+	.advantages-area {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	.advantage-some-text {
+		max-width: 720px;
+		margin-right: unset;
+		margin: 0 auto;
+		float: unset;
+	}
+	.advantage-some-text {
+		width: 100%;
+	}
+	.advantages-content{
+		width:100%;
+	}
+	.advantages-image{
+		width:100%;
+	}
+	.banner-content h1 {
+		font-size: 38px;
+	}
+
+	/*-------menu---*/
+	nav.menu ul{
+		display: none;
+	}
+	.logo {
+	    display: -webkit-box;
+	    display: -ms-flexbox;
+	    display: flex;
+	    -webkit-box-pack: justify;
+	        -ms-flex-pack: justify;
+	            justify-content: space-between;
+	    padding: 2rem 0;
+	    -webkit-box-align: center;
+	        -ms-flex-align: center;
+	            align-items: center;
+	}
+	.logo a i {
+		font-size: 22px;
+		color: #2888E2;
+		-webkit-transition: .4s;
+		transition:.4s;
+	}
+	.logo a i:hover{
+		color: #202020;
+	}
+	nav.menu ul li {
+	    margin-right: 3rem;
+	    text-align: center;
+	}
+	nav.menu ul li {
+	    margin-right: unset;
+	    text-align: center;
+	    border-bottom: 1px solid #ddd;
+	}
+	nav.menu ul li a {
+	    padding: 1rem 0;
+	}
+	.sticky nav.menu ul li a {
+	    padding: 1rem 0;
+	}
+	.top-social-icon {
+		margin: unset;
+	}
+	.top-social-icon:last-child{
+		display: none;
+	}
+	.about-image {
+		-webkit-transform: translateY(15%);
+		        transform: translateY(15%);
+	}
+	.service-item {
+		margin-bottom: 3rem;
+	}
+	.single-portfolio {
+		-ms-grid-columns: 1fr 1fr;
+		    grid-template-columns: 1fr 1fr;
+	}
+	.footer-need-help,
+	.footer-work{
+		margin-top: 4rem;
+	}
+	.socket-menu ul {
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+	}
+	.socket-copyright p {
+	 float: unset; 
+	}
+	.socket-copyright p {
+		float: unset;
+		text-align: center;
+		padding: 2rem 0;
+	}
+	.hero-3 {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	.hero-3 h2{
+		margin-bottom: 3rem;
+	}
+	.customer-img {	
+		height: 14rem;
+	}
+	.customer-img {
+		height: 11rem;
+	}
+	.banner-area {
+		padding: 14rem 0 10rem;
+	}
+
+}
+@media screen and (max-width: 767px){
+	.advantage-some-text {
+		max-width:540px;
+	}
+	.customer-img {
+		height: 8rem;
+	}
+	.isotop ul {
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+	}
+	.single-portfolio {
+		-ms-grid-columns: 1fr;
+		grid-template-columns: 1fr;
+	}
+}
+@media screen and (max-width: 767px) and (min-width: 600px){
+	.team-image-overlay img {
+		-webkit-transform: translateY(80px);
+		        transform: translateY(80px);
+	}
+}
+@media screen and (max-width: 575px){
+
+	.socket-menu ul {
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		margin-bottom: 2rem;
+	}
+	.banner-content h1 {
+		font-size: 30px;
+		line-height: 50px;
+	}
+	.banner-area {
+		padding: 8rem 0 10rem;
+	}
+	.banner-content .btn-sty-1 {
+		margin-bottom: 2rem;
+	}
+	h2 {
+		font-size: 26px;
+	}
+	.section-padding {
+		padding: 8rem 0 8rem;
+	}
+	.twitter-testimonial p {
+		font-size: 22px;
+		padding-bottom: 2rem;
+		line-height: 35px;
+	}
+}
+@media screen and (max-width: 480px){
+	.search-container .col-9 {
+		padding-right: 0;
+	}
+	.search-container .col-3 {
+		padding-left: 0;
+	}
+	.section-padding {
+		padding: 6rem 0 5rem;
+	}
+}
