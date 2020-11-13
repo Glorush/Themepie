@@ -247,10 +247,12 @@ a{
     transition: .3s;
     text-transform: uppercase;
 }
-.menu ul li a:hover{
+.menu ul li a:hover,
+.menu ul li .active{
     color:#2888E2;
     border-color: #2888E2;
 }
+
 .top-social-icon {
     margin-left: 50px;
     margin-left: 50px;

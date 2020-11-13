@@ -172,6 +172,9 @@
 	.banner-area {
 		padding: 14rem 0 10rem;
 	}
+	.customer-image.owl-theme .owl-nav {
+		top: 29%;
+	}
 
 }
 @media screen and (max-width: 767px){
@@ -189,6 +192,21 @@
 		-ms-grid-columns: 1fr;
 		grid-template-columns: 1fr;
 	}
+	.banner-content .button {
+		margin-top: 50px;
+		margin-top: 5rem;
+	}
+	.banner-content h1 {
+		line-height: 54px;
+	}	
+	.customer-image.owl-theme .owl-nav {
+		top: 25%;
+	}
+	.footer-logo a {
+		margin: 20px 0 80px;
+		margin: 2rem 0 8rem;
+	}
+
 }
 @media screen and (max-width: 767px) and (min-width: 600px){
 	.team-image-overlay img {
